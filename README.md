@@ -6,13 +6,18 @@ Maven project with REST Assured, Cucumber and Cucumber report (based on https://
 
 ## Requisites
 
-openjdk version "11.0.14"
-Apache Maven 3.6.3
+* openjdk version 11.0.14
+* Apache Maven 3.6.3
 
 ## To execute the tests
 
-* To run all the scenarios: mvn test verify
-* Valid tags of scenarios: @AddPlace, @DeletePlace, @Regresion -> mvn test verify -Dcucumber.filter.tags="@AddPlace"
+* To run all the scenarios: 
+
+mvn test verify
+
+* Valid tags of scenarios: @AddPlace, @DeletePlace, @Regresion
+
+mvn test verify -Dcucumber.filter.tags="@AddPlace"
 
 ## To create a BUILD in Jenkins
 
